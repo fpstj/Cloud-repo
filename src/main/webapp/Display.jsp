@@ -40,6 +40,8 @@ ps.setString(1, course_id);
 ResultSet rs = ps.executeQuery();
 while (rs.next() == true) {
 %>
+
+<!-- Comment -->
 <tbody>
 <tr>
 <td> <%= rs.getInt(1) %> </td>
